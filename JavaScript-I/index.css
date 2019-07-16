@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* layout */
+@media all and (min-width: 700px) {
+  #wb-cover {
+    background-color: #132c70;
+    float: left;
+    height: 100%;
+    width: 250px;
+  }
+}
+
+/* cover */
+#wb-cover {
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+#last-updated {
+  margin-top: 20px;
+}
+#wb-cover a {
+  color: #fff;
+  text-decoration: underline;
+}
+#wb-cover a:hover {
+  text-decoration: none;
+}
+#wb-cover h3 {
+  font-weight: normal;
+}
+#wb-title h1 {
+  font-size: 35px;
+}
+
+/* author */
+#wb-author {
+  margin-top: 80px;
+}
+#wb-author img {
+  width: 80%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+#wb-author-social-links {
+  margin-top: 80px;
+}
+#wb-author-social-links h3 {
+  border-bottom: 1px solid #d0d1d5;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+#wb-author-social-links p {
+  margin: 5px;
+}
+
+/* content */
+#wb-content {
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+}
+#wb-content img {
+  border: 1px solid #d0d1d5;
+  max-width: 100%;
+}
+#wb-content p, #wb-toc {
+  font-size: 18px;
+}
+#wb-content p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#wb-content h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+#wb-toc {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d0d1d5;
+}
+#wb-toc h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#wb-toc ol {
+  margin-left: 18px;
+}
+#wb-toc li {
+  margin: 5px;
+}
